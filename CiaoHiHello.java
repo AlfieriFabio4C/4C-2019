@@ -17,9 +17,9 @@ public class CiaoHiHello {
     public static void main(String[] args) throws InterruptedException {
         // TODO code application logic here
 
-        Hi a = new Hi();
-        Hello b = new Hello();
-        Say c = new Say();
+        Say a = new Say("Hi");
+        Say b = new Say("Ciao");
+        Say c = new Say("Hello");
         a.start();
         b.start();
         c.start();
