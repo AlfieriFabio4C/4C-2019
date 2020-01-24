@@ -5,13 +5,16 @@
  */
 package eserciziothread;
 
+
+
 /**
  *
  * @author fabio.alfieri
  */
-public class Say extends Thread{
-    
-    public Say() {
+public class Hello  extends Thread{
+   
+
+    public Hello() {
         
     }
     
@@ -19,8 +22,11 @@ public class Say extends Thread{
     @Override
     public void run(){
         for (int i = 0; i < 10; i++) {
-            System.out.println("ciao");
+           
+            System.out.println("Hello");
         }
     }
+
+    
     
 }
