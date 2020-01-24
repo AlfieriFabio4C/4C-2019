@@ -10,17 +10,16 @@ package eserciziothread;
  * @author fabio.alfieri
  */
 public class Say extends Thread{
-    
-    public Say() {
-        
+    private String a;
+    public Say(String a) {
+        this.a = a;
     }
     
     
     @Override
     public void run(){
-        for (int i = 0; i < 10; i++) {
-            System.out.println("ciao");
-        }
+            System.out.println(a);
+        
     }
     
 }

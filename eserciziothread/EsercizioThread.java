@@ -17,10 +17,9 @@ public class EsercizioThread {
     public static void main(String[] args) throws InterruptedException {
         // TODO code application logic here
 
-        Hi a = new Hi();
-        Hello b = new Hello();
-        Say c = new Say();
-
+        Say a = new Say("Ciao");
+        Say b = new Say("Hello");
+        Say c = new Say("Hi");
         a.start();
         b.start();
         c.start();
